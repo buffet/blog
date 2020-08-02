@@ -1,0 +1,13 @@
+baseURL = "http://blog.buffet.sh/"
+languageCode = "en-us"
+title = "buffet's blog"
+enableEmoji = true
+enableRobotsTXT = true
+theme = "jane"
+
+[author]
+  name = "buffet"
+
+[params.social]
+  a-email = "mailto:blog@buffet.sh"
+  b-github = "https://github.com/buffet"
