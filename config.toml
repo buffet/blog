@@ -8,6 +8,11 @@ theme = "jane"
 [author]
   name = "buffet"
 
+[[menu.main]]
+  name = "Archive"
+  weight = 10
+  url = "/post"
+
 [params.social]
   a-email = "mailto:blog@buffet.sh"
   b-github = "https://github.com/buffet"
