@@ -1,7 +1,12 @@
 ---
 title: "Introducing Oyster"
 date: 2020-09-06T15:18:07Z
+last-edited: 2020-09-10T16:06:13Z
 ---
+
+Prescript:
+I king of forgot to mention that I'm talking about a Wayland compositor.
+You would be able run it either standalone, or as a window in your existing setup, maybe fullscreened in a workspace or something.
 
 For quite a while I had this idea to somehow make the shell and the terminal play together, by printing information hidden in escape sequences between commands.
 While I was sure that this could improve my workflow, I couldn't really find any interesting things to do with this, besides having all commands run as seperate units, potentially giving me a new prompt while the old command is still running.
