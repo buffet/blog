@@ -1,12 +1,9 @@
 ---
 title: "Introducing Oyster"
 date: 2020-09-06T15:18:07Z
-last-edited: 2020-09-10T16:06:13Z
+last-edited: 2020-09-17T20:18:53Z
+tags: ["oyster", "idea"]
 ---
-
-Prescript:
-I king of forgot to mention that I'm talking about a Wayland compositor.
-You would be able run it either standalone, or as a window in your existing setup, maybe fullscreened in a workspace or something.
 
 For quite a while I had this idea to somehow make the shell and the terminal play together, by printing information hidden in escape sequences between commands.
 While I was sure that this could improve my workflow, I couldn't really find any interesting things to do with this, besides having all commands run as seperate units, potentially giving me a new prompt while the old command is still running.
@@ -26,3 +23,11 @@ While this would work amazing with just CLI stuff, it brings up the issue of dea
 I'm not exactly sure how to solve that issue just yet.
 I could detect TUI apps by checking for the escape sequences to trigger the alternate buffer mostly, and then could have GUI apps behave similarily with window swallowing.
 This leads to both text editors and your web browser to slowly scroll off screen, which is likely not what you want.
+
+I decided to implement the terminal part in GTK, as that allows me to get a working prototype faster, and gives me UI stuff, with integrated styling support.
+Also I assume the majority of users is gonna want to use this as a terminal, so there's no reason to block Nvidia users from it by making the entire thing a compositor.
+
+The compositor part will be a seperate program, that has oyster organize the windows in the positions they should be in.
+This should be transparent for the user.
+
+In the future I might add a shell library, as that would simplify a lot of stuff (piping stuff into multiple bash instances and implementing a lot of builtins to make that work **is** pretty hacky), but that sounds like work, so I'll leave that for now.
