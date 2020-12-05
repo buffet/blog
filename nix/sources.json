@@ -1,14 +1,14 @@
 {
-    "jane": {
+    "kiera": {
         "branch": "master",
-        "description": "A readable & concise theme for Hugo",
-        "homepage": "https://xianmin.github.io/hugo-theme-jane/",
-        "owner": "xianmin",
-        "repo": "hugo-theme-jane",
-        "rev": "68e0de4273df61045f5a6edd5ecd5a1703e32cf9",
-        "sha256": "1dvf7rjkcnqzvpdcadny5nq6i7pvgfxxr4k289hr8wdgapxxzq48",
+        "description": "Kiera - A Hugo Theme for writing",
+        "homepage": "",
+        "owner": "funkydan2",
+        "repo": "hugo-kiera",
+        "rev": "659c14f66b7b2a3748f065f0d202f531b4e2a5a5",
+        "sha256": "040ka3rp94lvqmrsxp3fx8f50zzjlf4qz8rrf83wih26q65nkn01",
         "type": "tarball",
-        "url": "https://github.com/xianmin/hugo-theme-jane/archive/68e0de4273df61045f5a6edd5ecd5a1703e32cf9.tar.gz",
+        "url": "https://github.com/funkydan2/hugo-kiera/archive/659c14f66b7b2a3748f065f0d202f531b4e2a5a5.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {

@@ -11,12 +11,12 @@ pkgs.stdenv.mkDerivation {
 
   shellHook = ''
     mkdir -p themes
-    ln -snf "${sources.jane}" themes/jane
+    ln -snf "${sources.kiera}" themes/kiera
   '';
 
   buildPhase = ''
     mkdir -p themes
-    ln -snf "${sources.jane}" themes/jane
+    ln -snf "${sources.kiera}" themes/kiera
     hugo
   '';
 

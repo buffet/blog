@@ -1,18 +1,26 @@
 baseURL = "http://blog.buffet.sh/"
-languageCode = "en-us"
 title = "buffet's blog"
+copyright = "Copyright &copy; 2020 - Niclas Meyer"
 enableEmoji = true
 enableRobotsTXT = true
-theme = "jane"
+pygmentsCodeFences = true
+pygmentsStyle = "solarized-light"
+theme = "kiera"
 
 [author]
   name = "buffet"
+  email = "blog@buffet.sh"
+  github = "buffet"
 
 [[menu.main]]
   name = "Archive"
   weight = 10
-  url = "/post"
+  url = "/posts"
 
-[params.social]
-  a-email = "mailto:blog@buffet.sh"
-  b-github = "https://github.com/buffet"
+[[menu.main]]
+  name = "Tags"
+  weight = 10
+  url = "/tags"
+
+[params]
+  katex = true
