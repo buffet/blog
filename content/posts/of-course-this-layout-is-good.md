@@ -1,9 +1,7 @@
 +++
 title = "'Of Course This Layout Is Good On The Analyzer It Was Created On!'"
 date = 2021-07-03T15:48:09Z
-images = []
 tags = ["layouts", "ramble"]
-draft = true
 +++
 
 Yes!, it is, and that's great!
